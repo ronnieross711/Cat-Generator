@@ -5,5 +5,5 @@ function generateCat() {
     div.appendChild(image);
 }
 function reset() {
-    document.getElementById('flex-cat-gen').remove();
+    window.location.reload();
 }
